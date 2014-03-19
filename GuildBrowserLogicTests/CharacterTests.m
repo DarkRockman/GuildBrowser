@@ -13,6 +13,7 @@
 @implementation CharacterTests
 {
     NSDictionary *_characterDetailJson;
+    Character *_testGuy;
 }
 
 - (void) setUp
@@ -23,11 +24,15 @@
     id json = [NSJSONSerialization JSONObjectWithData:sampleData options:0 error:&error];
     STAssertNotNil(json, @"invalid data");
     _characterDetailJson = json;
+    
+    _testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
+    STAssertNotNil(_testGuy, @"could not create character from json");
 }
 
 - (void) tearDown
 {
     _characterDetailJson = nil;
+    _testGuy = nil;
 }
 
 - (void) testCreateCharacterFromDetailJson
@@ -44,7 +49,7 @@
     STAssertEqualObjects(_testGuy.name, @"Hagrel", @"name is wrong");
     STAssertEqualObjects(_testGuy.battleGroup, @"Emberstorm", @"battle group is wrong");
     STAssertEqualObjects(_testGuy.realm, @"Borean Tundra", @"realm is wrong");
-    STAssertEqualObjects(_testGuy.achievementpoints, @3130, @"achievement points is wrong");
+    STAssertEqualObjects(_testGuy.achievementPoints, @3130, @"achievement points is wrong");
     STAssertEqualObjects(_testGuy.level, @85, @"level is wrong");
     STAssertEqualObjects(_testGuy.classType, @"Warrior", @"class type is wrong");
     STAssertEqualObjects(_testGuy.race, @"Human", @"race is wrong");
