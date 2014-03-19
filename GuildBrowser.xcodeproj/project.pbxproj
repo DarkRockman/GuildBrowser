@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A750CFFC18D9F8C7005052AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC5D15E9872E00B3713E /* SenTestingKit.framework */; };
+		A750CFFD18D9F8C7005052AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
+		A750CFFE18D9F8C7005052AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
+		A750D00418D9F8C7005052AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A750D00218D9F8C7005052AC /* InfoPlist.strings */; };
+		A750D00E18D9FA61005052AC /* WowUtilsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A750D00D18D9FA61005052AC /* WowUtilsTest.m */; };
+		A750D00F18D9FD07005052AC /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
+		A750D01018D9FD11005052AC /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
+		A750D01118D9FD1E005052AC /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
+		A750D01218D9FD29005052AC /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -63,6 +72,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A750D01318D9FD3A005052AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9FDC3A15E9872D00B3713E;
+			remoteInfo = GuildBrowser;
+		};
 		CB9FDC6115E9872E00B3713E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
@@ -73,6 +89,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A750CFFB18D9F8C7005052AC /* GuildBrowserLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A750D00118D9F8C7005052AC /* GuildBrowserLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuildBrowserLogicTests-Info.plist"; sourceTree = "<group>"; };
+		A750D00318D9F8C7005052AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A750D00818D9F8C7005052AC /* GuildBrowserLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuildBrowserLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		A750D00C18D9FA61005052AC /* WowUtilsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtilsTest.h; sourceTree = "<group>"; };
+		A750D00D18D9FA61005052AC /* WowUtilsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTest.m; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -156,6 +178,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A750CFF718D9F8C7005052AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A750CFFC18D9F8C7005052AC /* SenTestingKit.framework in Frameworks */,
+				A750CFFD18D9F8C7005052AC /* UIKit.framework in Frameworks */,
+				A750CFFE18D9F8C7005052AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB9FDC3815E9872D00B3713E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -179,6 +211,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A750CFFF18D9F8C7005052AC /* GuildBrowserLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				A750D00018D9F8C7005052AC /* Supporting Files */,
+				A750D00C18D9FA61005052AC /* WowUtilsTest.h */,
+				A750D00D18D9FA61005052AC /* WowUtilsTest.m */,
+			);
+			path = GuildBrowserLogicTests;
+			sourceTree = "<group>";
+		};
+		A750D00018D9F8C7005052AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A750D00118D9F8C7005052AC /* GuildBrowserLogicTests-Info.plist */,
+				A750D00218D9F8C7005052AC /* InfoPlist.strings */,
+				A750D00818D9F8C7005052AC /* GuildBrowserLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +238,7 @@
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
 				CB9FDC6315E9872E00B3713E /* GuildBrowserTests */,
+				A750CFFF18D9F8C7005052AC /* GuildBrowserLogicTests */,
 				CB9FDC3E15E9872D00B3713E /* Frameworks */,
 				CB9FDC3C15E9872D00B3713E /* Products */,
 			);
@@ -196,6 +249,7 @@
 			children = (
 				CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */,
 				CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.octest */,
+				A750CFFB18D9F8C7005052AC /* GuildBrowserLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -364,6 +418,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A750CFFA18D9F8C7005052AC /* GuildBrowserLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A750D00B18D9F8C7005052AC /* Build configuration list for PBXNativeTarget "GuildBrowserLogicTests" */;
+			buildPhases = (
+				A750CFF618D9F8C7005052AC /* Sources */,
+				A750CFF718D9F8C7005052AC /* Frameworks */,
+				A750CFF818D9F8C7005052AC /* Resources */,
+				A750CFF918D9F8C7005052AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A750D01418D9FD3A005052AC /* PBXTargetDependency */,
+			);
+			name = GuildBrowserLogicTests;
+			productName = GuildBrowserLogicTests;
+			productReference = A750CFFB18D9F8C7005052AC /* GuildBrowserLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		CB9FDC3A15E9872D00B3713E /* GuildBrowser */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB9FDC6E15E9872E00B3713E /* Build configuration list for PBXNativeTarget "GuildBrowser" */;
@@ -423,11 +496,20 @@
 			targets = (
 				CB9FDC3A15E9872D00B3713E /* GuildBrowser */,
 				CB9FDC5B15E9872E00B3713E /* GuildBrowserTests */,
+				A750CFFA18D9F8C7005052AC /* GuildBrowserLogicTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A750CFF818D9F8C7005052AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A750D00418D9F8C7005052AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB9FDC3915E9872D00B3713E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,6 +550,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A750CFF918D9F8C7005052AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		CB9FDC5A15E9872E00B3713E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,6 +579,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A750CFF618D9F8C7005052AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A750D01218D9FD29005052AC /* WoWUtils.m in Sources */,
+				A750D01118D9FD1E005052AC /* Guild.m in Sources */,
+				A750D01018D9FD11005052AC /* Item.m in Sources */,
+				A750D00F18D9FD07005052AC /* Character.m in Sources */,
+				A750D00E18D9FA61005052AC /* WowUtilsTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB9FDC3715E9872D00B3713E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,6 +632,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A750D01418D9FD3A005052AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
+			targetProxy = A750D01318D9FD3A005052AC /* PBXContainerItemProxy */;
+		};
 		CB9FDC6215E9872E00B3713E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
@@ -533,6 +645,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A750D00218D9F8C7005052AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A750D00318D9F8C7005052AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		CB9FDC4815E9872D00B3713E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -560,6 +680,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A750D00918D9F8C7005052AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A750D00A18D9F8C7005052AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		CB9FDC6C15E9872E00B3713E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -668,6 +829,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A750D00B18D9F8C7005052AC /* Build configuration list for PBXNativeTarget "GuildBrowserLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A750D00918D9F8C7005052AC /* Debug */,
+				A750D00A18D9F8C7005052AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
